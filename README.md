@@ -53,15 +53,9 @@ If the program runs successfully, you will see 3 windows, which are the left vie
 When any of the 3 windows is focused, press P to pause the program, R to resume it, and Q to exit.
 
 ## 已知问题 <br/> Known Issues
-* 由于 ZED 相机的捕获图像尺寸为 1080 × 1920，Ultralytics 会将图像填充至 1088 × 1920 来满足 32 的倍数要求，因此本程序暂时仅支持 1080p 分辨率的 ZED 相机，其他分辨率的输入可能会导致程序运行错误。
-<br/>
-Due to the ZED camera's captured image size of 1080 × 1920, Ultralytics will pad the image to 1088 × 1920 to meet the requirement of multiples of 32, so this program currently only supports ZED cameras with a resolution of 1080p. Other input resolutions may cause the program to run incorrectly.
-* 对模型路径进行了硬编码，如模型路径为 `./weights/*.pt`，请根据需要自行修改。
-<br/>
-The model path is hard-coded, and the model path is `./weights/*.pt`. Please modify it as needed.
-* 暂未引入对检测目标的掩膜图像的校验机制，因此可能会出现检测获得的掩膜图像不完整或错误的情况。
-<br/>
-The verification mechanism for the mask image of the detected target has not been introduced yet, so there may be cases where the detected mask image is incomplete or incorrect.
+* 由于 ZED 相机的捕获图像尺寸为 1080 × 1920，Ultralytics 会将图像填充至 1088 × 1920 来满足 32 的倍数要求，因此本程序暂时仅支持 1080p 分辨率的 ZED 相机，其他分辨率的输入可能会导致程序运行错误。 <br/> Due to the ZED camera's captured image size of 1080 × 1920, Ultralytics will pad the image to 1088 × 1920 to meet the requirement of multiples of 32, so this program currently only supports ZED cameras with a resolution of 1080p. Other input resolutions may cause the program to run incorrectly.
+* 对模型路径进行了硬编码，如模型路径为 `./weights/*.pt`，请根据需要自行修改。 <br/> The model path is hard-coded, and the model path is `./weights/*.pt`. Please modify it as needed.
+* 暂未引入对检测目标的掩膜图像的校验机制，因此可能会出现检测获得的掩膜图像不完整或错误的情况。 <br/> The verification mechanism for the mask image of the detected target has not been introduced yet, so there may be cases where the detected mask image is incomplete or incorrect.
 * ...
 
 ## 另请参阅 <br/> Extra Reference
