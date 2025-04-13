@@ -1,0 +1,6 @@
+# Image processing and data handling
+opencv-python>=4.9.0.80
+numpy>=1.23.5
+
+# Inference and model handling
+ultralytics>=8.3.93

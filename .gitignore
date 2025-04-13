@@ -1,0 +1,6 @@
+# Models and configuration files
+/models/*
+
+# Rough test files
+test.py
+single_file_test.py
