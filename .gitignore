@@ -4,3 +4,10 @@
 # Rough test files
 test.py
 single_file_test.py
+
+# PyCharm project files
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]

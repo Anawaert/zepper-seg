@@ -2,7 +2,7 @@
 ## 项目简介 <br/> Introduction
 zepper-seg 是一个基于 Ultralytics YOLOv8-seg / YOLO11-seg 实例分割模型的双目视觉辣椒检测与定位项目，旨在使用深度学习与双目视觉技术完成对辣椒的采摘点精确定位。"zepper" 一词由 "zed" 与 "pepper" 组合而成，意为 "双目视觉辣椒"。项目使用 `Python` 作为主要编程语言，因此理论上可以在 Windows、Linux 和 MacOS 等操作系统上运行。本项目的目标是实现实时、高效且准确的辣椒检测与定位，帮助广大农业工作者提高采摘辣椒的效率和准确性。
 
-zepper-seg is a stereo vision chili detection and positioning project based on the Ultralytics YOLOv8-seg / YOLO11-seg instance segmentation model, aiming to achieve accurate positioning of chili picking points using deep learning and stereo vision technology. The term "zepper" is a combination of "zed" and "pepper", meaning "stereo vision chili". The project uses `Python` as the main programming language, so it can theoretically run on operating systems such as Windows, Linux, and MacOS. The goal of this project is to achieve real-time, efficient, and accurate chili detection and positioning, helping agricultural workers improve the efficiency and accuracy of chili picking.
+zepper-seg is a stereo vision pepper detection and positioning project based on the Ultralytics YOLOv8-seg / YOLO11-seg instance segmentation model, aiming to achieve accurate positioning of chili picking points using deep learning and stereo vision technology. The term "zepper" is a combination of "zed" and "pepper", meaning "stereo vision chili". The project uses `Python` as the main programming language, so it can theoretically run on operating systems such as Windows, Linux, and MacOS. The goal of this project is to achieve real-time, efficient, and accurate chili detection and positioning, helping agricultural workers improve the efficiency and accuracy of chili picking.
 
 ## 效果示意图 <br/> Effect Demonstration
 
